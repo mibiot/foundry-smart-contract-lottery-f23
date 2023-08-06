@@ -1,0 +1,9 @@
+[profile.default]
+# See more config options https://github.com/foundry-rs/foundry/tree/master/configsrc = "src"
+
+out = "out"
+libs = ["lib"]
+remappings = [
+    '@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts',
+    '@solmate=lib/solmate/src/',
+]
